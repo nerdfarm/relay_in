@@ -1,0 +1,9 @@
+machine:
+  python:
+    version: 3.4.2
+
+test:
+  pre:
+    - pip install pylint
+  post:
+    - pylint relay_in.py --rcfile=.config/pylintrc
