@@ -18,7 +18,7 @@ Installation
 2. Copy ``relay_in.py`` to your ZNC profile
 3. Load the ZNC module::
 
-    /msg *status loadmod push
+    /msg *status loadmod relay_in
 
 Configuration
 =============
