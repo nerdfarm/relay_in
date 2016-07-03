@@ -1,7 +1,7 @@
 ============
 znc-relay-in
 ============
-.. image:: https://circleci.com/gh/nerdfarm/znc-relay-in.svg?style=shield&circle-token=72cd213e4be12ba79144de993e19dff4f5128da8
+.. image:: https://circleci.com/gh/nerdfarm/znc-relay-in/tree/develop.svg?style=shield&circle-token=72cd213e4be12ba79144de993e19dff4f5128da8
 ``znc-relay-in`` is a Python ZNC module for passing mosquitto messages to IRC.
 
 Intended for use with `obs <https://github.com/nerdfarm/obs>`_, a service for `mosquitto <http://mosquitto.org>`_ messages to Google Hangouts
