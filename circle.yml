@@ -5,5 +5,6 @@ machine:
 test:
   pre:
     - pip install pylint
+    - pip install paho-mqtt
   post:
     - pylint relay_in.py --rcfile=.config/pylintrc
