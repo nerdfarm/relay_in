@@ -35,7 +35,8 @@ Example::
 
 Configuration
 =============
-Currently, configuration is done by editing mosquitto client connection parameters in ``relay_in.py``
+All required parameters should be passed on module load, see example under ``Installation``.
+Currently, no module commands to configure while module is loaded. Reload with new parameters if needed.
 
 License
 =======
